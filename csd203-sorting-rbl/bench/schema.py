@@ -1,0 +1,1 @@
+FIELDS = ("run_id", "rq", "algorithm", "code_commit", "generator_version", "machine_id", "python_version", "dataset", "n", "k", "runs", "seed", "input_sha256", "mode", "status", "phase", "error_type", "output_check", "oracle_match", "elapsed_ms", "throughput_kps", "mem_peak_bytes", "key_comparisons", "array_reads", "array_writes", "run_count", "avg_run_len", "official")

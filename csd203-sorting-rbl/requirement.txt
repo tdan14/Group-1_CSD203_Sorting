@@ -1,0 +1,2 @@
+# Tên tương thích theo yêu cầu; file chính là requirements.txt.
+-r requirements.txt

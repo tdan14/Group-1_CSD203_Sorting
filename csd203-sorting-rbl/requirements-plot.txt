@@ -1,0 +1,2 @@
+# Chỉ dùng ngoài vùng đo. Ghi phiên bản thực tế vào môi trường sau khi cài.
+matplotlib

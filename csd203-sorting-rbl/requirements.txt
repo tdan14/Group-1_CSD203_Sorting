@@ -1,0 +1,2 @@
+# Core chỉ dùng thư viện chuẩn CPython 3.12. Không có dependency cần cài.
+# Vẽ hình: pip install -r requirements-plot.txt

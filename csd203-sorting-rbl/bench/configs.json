@@ -1,0 +1,98 @@
+{
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "timeout_seconds": 60,
+  "modes": [
+    "time",
+    "mem",
+    "count"
+  ],
+  "rqs": {
+    "RQ1": {
+      "algorithms": [
+        "quick",
+        "merge",
+        "heap",
+        "radix"
+      ],
+      "sizes": [
+        10000,
+        50000,
+        100000,
+        500000,
+        1000000
+      ],
+      "datasets": [
+        {
+          "dataset": "D1"
+        }
+      ]
+    },
+    "RQ2": {
+      "algorithms": [
+        "quick",
+        "merge",
+        "heap",
+        "radix"
+      ],
+      "sizes": [
+        100000,
+        1000000
+      ]
+    },
+    "RQ3": {
+      "algorithms": [
+        "quick",
+        "merge",
+        "timsort",
+        "timsort-noA",
+        "lib-sorted"
+      ],
+      "sizes": [
+        100000,
+        1000000
+      ]
+    }
+  },
+  "condition_datasets": [
+    {
+      "dataset": "D1"
+    },
+    {
+      "dataset": "D2"
+    },
+    {
+      "dataset": "D3"
+    },
+    {
+      "dataset": "D4"
+    },
+    {
+      "dataset": "D5",
+      "k": 1000
+    },
+    {
+      "dataset": "D5",
+      "k": 10
+    },
+    {
+      "dataset": "D5",
+      "k": 2
+    },
+    {
+      "dataset": "D6",
+      "runs": 2
+    },
+    {
+      "dataset": "D6",
+      "runs": 16
+    },
+    {
+      "dataset": "D6",
+      "runs": 256
+    }
+  ]
+}
