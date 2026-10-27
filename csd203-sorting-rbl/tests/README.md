@@ -1,10 +1,19 @@
-# Kiểm thử
+# Kiểm thử sau tích hợp 28/10/2026
 
-Chạy `python -m unittest discover -s tests -v` từ repo root.
+Chạy tại `csd203-sorting-rbl/`:
 
-- Test generator và harness chạy ngay với thư viện chuẩn.
-- Module thuật toán chưa hoàn thành được SKIP có tên; không coi kết quả này là nghiệm thu cả đề tài.
-- Sau khi triển khai, đặt cờ READY/COUNTED_READY tương ứng. Test tự kích hoạt 1.000 ca fuzz và test count/stability.
-- `python -m scripts.check_ready` phải exit 0 trước nghiệm thu. Tiếp tục kiểm tra test không còn SKIP và review cơ chế; cờ không chứng minh thuật toán đúng đặc tả.
-- Dân bổ sung test riêng cho minrun 31/32/33/63/64/65, đảo run giảm ngặt, các khóa bằng nhau tại ranh giới, chỉ số Power và stack merge. Hải/Thiện review độc lập.
-- Hàm đếm phải cùng quyết định thuật toán với bản timing. Không đo timing trên comparator wrapper có bộ đếm.
+```bash
+python -B -X utf8 -m unittest discover -s tests -t . -v
+python -B -m scripts.check_submissions
+```
+
+Bộ hiện tại có 72 test method, không skip. Năm file `test_generate`,
+`test_quick`, `test_merge`, `test_heap`, `test_radix` giữ nguyên từ gói
+Ngân. `test_timsort` kiểm tra phần mới của Dân. Test khung cũ được nối
+với tên hàm generator và API runner/worker đã bàn giao. Không discover
+các gói lịch sử trong `ban_giao/` như một suite chung.
+
+Test kiểm tra tính đúng và tính ổn định không thay review cơ chế của
+thành viên. Không đo timing trên comparator wrapper có bộ đếm. Trước
+nghiệm thu, kiểm tra thêm `python -m scripts.check_ready` và các điểm
+còn mở trong `docs/TICH_HOP.md`.

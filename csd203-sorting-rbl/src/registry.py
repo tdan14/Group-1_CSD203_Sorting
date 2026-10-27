@@ -1,22 +1,39 @@
-"""Điểm nối duy nhất giữa runner/test và module của từng thành viên."""
+"""Noi test va cong cu kiem tra voi giao dien ban giao cua cac thanh vien."""
 from importlib import import_module
-ALGORITHMS = ("quick", "merge", "heap", "radix", "timsort", "timsort-noA", "lib-sorted")
+
+from bench.worker import ALGORITHMS, get_algorithm_callable
+
 STABLE = ("merge", "timsort", "timsort-noA")
 
+
 def is_ready(name, mode="time"):
-    if name == "lib-sorted":
-        return mode in ("time", "mem")
     if name not in ALGORITHMS:
         raise ValueError(name)
-    module = import_module("src." + ("timsort" if name == "timsort-noA" else name))
-    flag = ("NOA_COUNTED_READY" if mode == "count" else "NOA_READY") if name == "timsort-noA" else ("COUNTED_READY" if mode == "count" else "READY")
-    return bool(getattr(module, flag, False))
+    if name == "lib-sorted":
+        return mode in ("time", "mem")
+    if mode not in ("time", "mem", "count"):
+        return False
+
+    module_name = name
+    if name == "timsort-noA":
+        module_name = "timsort"
+    try:
+        module = import_module("src." + module_name)
+        function = get_algorithm_callable(name, counted=(mode == "count"))
+    except (ImportError, AttributeError):
+        return False
+
+    flag = "READY"
+    if mode == "count":
+        flag = "COUNTED_READY"
+    if name == "timsort-noA":
+        flag = "NOA_READY"
+        if mode == "count":
+            flag = "NOA_COUNTED_READY"
+    return callable(function) and bool(getattr(module, flag, True))
+
 
 def resolve(name, mode="time"):
     if not is_ready(name, mode):
-        raise NotImplementedError(f"{name}/{mode}: module chưa bàn giao; xem PHAN_CONG.md")
-    if name == "lib-sorted":
-        return sorted
-    module = import_module("src." + ("timsort" if name == "timsort-noA" else name))
-    fn = ("sort_noa_counted" if mode == "count" else "sort_noa") if name == "timsort-noA" else ("sort_counted" if mode == "count" else "sort")
-    return getattr(module, fn)
+        raise NotImplementedError(name + "/" + mode + ": chua ban giao")
+    return get_algorithm_callable(name, counted=(mode == "count"))

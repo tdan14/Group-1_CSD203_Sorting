@@ -11,7 +11,7 @@ def main():
             print(f"{'READY' if ready else 'TODO ':5} {name}/{mode}")
             if not ready:
                 missing.append((name, mode))
-    print("Flags chỉ xác nhận bàn giao; phải chạy toàn bộ tests và review cơ chế.")
+    print("Giao diện đã có; cần chạy toàn bộ tests và review cơ chế trước nghiệm thu.")
     return 1 if missing else 0
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,0 +1,3 @@
+# Only used by bench/plot_rq1.py for figure generation from CSV. Outside the measurement perimeter (CSD203 proposal).
+matplotlib==3.10.9
+numpy>=1.23

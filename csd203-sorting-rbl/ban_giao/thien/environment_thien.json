@@ -1,0 +1,8 @@
+{
+  "machine_id": "Thien",
+  "os": "Linux Ubuntu x86_64 (Kernel 7.0.0-38-generic)",
+  "cpu": "Intel(R) Core(TM) Ultra 5 250K Plus",
+  "ram_gb": 32,
+  "python_version": "3.14.7",
+  "role": "Backup measurement machine / Development machine for Thien (rq2-thien)"
+}

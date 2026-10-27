@@ -1,0 +1,2 @@
+# Requirements for plotting benchmark figures (outside measurement core)
+matplotlib==3.11.2

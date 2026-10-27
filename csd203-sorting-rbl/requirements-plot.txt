@@ -1,2 +1,2 @@
-# Chỉ dùng ngoài vùng đo. Ghi phiên bản thực tế vào môi trường sau khi cài.
-matplotlib
+# Requirements for plotting benchmark figures (outside measurement core)
+matplotlib==3.11.2

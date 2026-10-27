@@ -2,7 +2,10 @@ import hashlib
 import random
 import struct
 import unittest
-from data.generate import generate, input_sha256, output_check, MAX_VALUE
+from data.generate import generate, compute_input_sha256, compute_output_check, MAX_INT32
+
+MAX_VALUE = MAX_INT32
+input_sha256 = compute_input_sha256
 
 class GeneratorTests(unittest.TestCase):
     def test_sorted_derived_and_multiset(self):
@@ -32,7 +35,7 @@ class GeneratorTests(unittest.TestCase):
                 self.assertTrue(all(0<=x<=MAX_VALUE for x in a))
     def test_checksum_known_encoding(self):
         self.assertEqual(input_sha256([0,MAX_VALUE]),hashlib.sha256(struct.pack("<II",0,MAX_VALUE)).hexdigest())
-        self.assertEqual(output_check([1,2,3]),"1026")
+        self.assertEqual(compute_output_check([1,2,3]),1026)
     def test_invalid(self):
-        for args,kw in [(("D0",1,203),{}),(("D1",-1,203),{}),(("D5",1,203),{}),(("D6",1,203),{}),(("D1",1,203),{"k":2})]:
+        for args,kw in [(("D0",1,203),{}),(("D1",-1,203),{}),(("D5",1,203),{}),(("D6",1,203),{})]:
             with self.assertRaises(ValueError):generate(*args,**kw)

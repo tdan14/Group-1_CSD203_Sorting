@@ -1,0 +1,6914 @@
+[
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "quick",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "merge",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "heap",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 100000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D1",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D2",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D3",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D4",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count"
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 1000
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 10
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D5",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "k": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 2
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 16
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2026,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2027,
+    "mode": "count",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "time",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "mem",
+    "runs": 256
+  },
+  {
+    "run_id": "run_rq2",
+    "rq": "RQ2",
+    "algo": "radix",
+    "dataset": "D6",
+    "n": 1000000,
+    "seed": 2028,
+    "mode": "count",
+    "runs": 256
+  }
+]

@@ -1,5 +1,22 @@
 # Phân công và bằng chứng đóng góp
 
+## Cập nhật tích hợp 28/10/2026
+
+Đã nhận đủ gói My, Ngân, Hải, Thiện từ `src.zip`; giữ nguyên 97 file ở
+`ban_giao/`, chép nguyên nội dung 27 file vào vị trí chung. Dân có thêm
+Timsort/Powersort/noA, counted, test và tài liệu bàn giao. Chi tiết tại
+[docs/TICH_HOP.md](docs/TICH_HOP.md), nguồn file ở
+[ban_giao/README.md](ban_giao/README.md).
+
+Quick/Merge/Heap/Radix đã thay các stub của bộ khung bằng source bàn giao.
+Không chỉnh logic, không tự ghi đã được reviewer nghiệm thu. Bộ test
+chung hiện đạt 72/72 trên CPython 3.12.13, không skip. Phần Dân có hỗ trợ
+AI, cần thành viên tự đọc và review. Chưa có số liệu nghiên cứu chính
+thức, commit/PR hoặc chữ ký review mới.
+
+Các bảng “trạng thái ban đầu” bên dưới giữ lại làm lịch sử khởi tạo.
+Nhật ký/phân công riêng của My và Ngân giữ nguyên trong `ban_giao/`.
+
 | Thành viên | RQ | Triển khai | Review | Nhánh |
 |---|---|---|---|---|
 | My | RQ1 | Quick; kiểm tra generator D1–D3 | Merge/D4–D6; Heap | rq1-my |
@@ -27,5 +44,6 @@ Thêm dòng sau mỗi phần việc; thay nội dung mẫu bằng bằng chứng
 
 | Ngày | Người | Module và thay đổi | Commit/PR | Reviewer | Test/CSV/bằng chứng |
 |---|---|---|---|---|---|
+| 2026-10-28 | Codex theo yêu cầu Dân | Gộp bốn gói, giữ nguyên source; thêm Timsort/noA và tài liệu phần Dân | Chưa commit | Chờ thành viên | 72 test đạt; SHA-256 97 bản gốc + 27 file tích hợp; xem docs/TICH_HOP.md |
 
 D0 và hạn nộp: ghi theo lịch giảng viên. Chưa tự gán ngày lịch trong bộ khung.

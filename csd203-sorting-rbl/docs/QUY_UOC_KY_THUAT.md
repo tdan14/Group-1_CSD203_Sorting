@@ -1,5 +1,10 @@
 # Quy ước triển khai
 
+> Cập nhật 28/10/2026: đã tích hợp source bàn giao. Lệnh chạy hiện tại
+> dùng `--config`, `--algo`, `--mode` của Hải, xem [README](../README.md).
+> Các quy ước/lệnh từ bộ khung dưới đây là tài liệu ban đầu; trạng thái
+> khác biệt được ghi tại [TICH_HOP.md](TICH_HOP.md).
+
 - CPython 3.12; đồng bộ đầy đủ patch version với máy Hải. Core Python thuần, GC bật, không setrecursionlimit.
 - `sort(a) -> None` thay đổi a; không bộ đếm, log, I/O, oracle hoặc kiểm tra miền trong vùng đo.
 - `sort_counted(a) -> dict` cùng quyết định thuật toán; đủ key trong src/contracts.py. None cho trường không áp dụng. Radix đếm đọc/ghi mảng, thuật toán còn lại đếm so sánh khóa thực tế.

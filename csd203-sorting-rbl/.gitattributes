@@ -4,3 +4,33 @@
 *.json text eol=lf
 *.csv text eol=lf
 *.docx binary
+
+# Giu nguyen byte cua cac file ban giao, ke ca xuong dong.
+ban_giao/** -text -eol
+BAO_CAO_BAN_GIAO_MY_CHO_NGAN.md -text -eol
+BAO_CAO_SUA_DOI.md -text -eol
+bench/configs.json -text -eol
+bench/env_info.py -text -eol
+bench/make_configs.py -text -eol
+bench/plot.py -text -eol
+bench/plot_rq1.py -text -eol
+bench/runner.py -text -eol
+bench/worker.py -text -eol
+data/generate.py -text -eol
+docs/ON_TAP_VAN_DAP_MY.md -text -eol
+environment_thien.json -text -eol
+HUONG_DAN_CHO_HAI.md -text -eol
+paper/limitations_quick.md -text -eol
+paper/methods_merge.md -text -eol
+paper/methods_quick.md -text -eol
+paper/rq1_hypothesis.md -text -eol
+requirements-plot.txt -text -eol
+src/heap.py -text -eol
+src/merge.py -text -eol
+src/quick.py -text -eol
+src/radix.py -text -eol
+tests/test_generate.py -text -eol
+tests/test_heap.py -text -eol
+tests/test_merge.py -text -eol
+tests/test_quick.py -text -eol
+tests/test_radix.py -text -eol

@@ -1,0 +1,605 @@
+Bối cảnh và proposal nghiên cứu Sorting
+
+CSD203  •  Nhóm My, Ngân, Hải, Thiện và Dân
+
+Tài liệu giúp các thành viên nắm yêu cầu RBL và triển khai công việc theo một kế hoạch chung. Phần I trình bày bối cảnh, phạm vi và sản phẩm của đề tài. Phần II gồm proposal tóm tắt, phân công cá nhân, quy ước kỹ thuật và tiêu chí bàn giao.
+
+Phần I Bối cảnh và yêu cầu đề tài
+
+Mục tiêu của nhóm là trả lời: dữ liệu lớn, đặc biệt dữ liệu đã có thứ tự một phần, nên được sắp xếp bằng thuật toán nào?
+
+Bối cảnh đề bài là xử lý dữ liệu trong AI: danh sách ID, log theo thời gian hoặc các lô dữ liệu đã được sắp xếp rồi nối lại. Nhóm phải xem xét đồng thời:
+
+Thời gian: thuật toán chạy nhanh hay chậm?
+
+Bộ nhớ phụ: cần cấp phát thêm bao nhiêu?
+
+Số phép toán: cần bao nhiêu phép so sánh hoặc lượt đọc/ghi mảng?
+
+Đặc điểm đầu vào: dữ liệu ngẫu nhiên, gần tăng dần, nhiều giá trị trùng… làm kết quả thay đổi thế nào?
+
+Kết luận cần có điều kiện, chẳng hạn: “Trong cấu hình và loại dữ liệu đã thử, thuật toán A nhanh hơn B nhưng dùng nhiều bộ nhớ hơn”. Chưa đo thì những dự đoán như “Timsort luôn nhanh nhất” chỉ là giả thuyết.
+
+Ba câu hỏi nghiên cứu là khung xuyên suốt toàn bộ công việc.
+
+Câu hỏi
+
+Hiểu đơn giản
+
+Thực nghiệm theo đề
+
+RQ1 — Khi dữ liệu lớn lên
+
+Bốn thuật toán cơ bản thay đổi tốc độ và bộ nhớ như thế nào?
+
+Quick, Merge, Heap, Radix trên dữ liệu ngẫu nhiên; N = 10.000, 50.000, 100.000, 500.000, 1.000.000
+
+RQ2 — Khi dạng dữ liệu thay đổi
+
+Cùng số phần tử, dữ liệu đã có thứ tự hoặc nhiều khóa trùng có làm thứ hạng thay đổi không?
+
+Thử các họ D1–D6 ở N = 100.000 và 1.000.000, với các mức tham số được quy định
+
+RQ3 — Timsort và cơ chế bên trong
+
+Timsort hiệu quả ra sao so với Quick/Merge? Việc tận dụng đoạn đã có thứ tự đóng góp bao nhiêu?
+
+Với nhóm 5 người: so sánh Quick, Merge, Timsort, Timsort noA và mốc thư viện lib-sorted
+
+Ablation, hay thí nghiệm bóc tách cơ chế, nghĩa là tạo một phiên bản tắt một kỹ thuật rồi so với phiên bản có kỹ thuật đó, giữ các điều kiện còn lại giống nhau. Ở nhóm này, trọng tâm là bật/tắt khả năng nhận diện đoạn có thứ tự tự nhiên.
+
+Phạm vi code bắt buộc gồm 4 thuật toán cơ bản và 2 phiên bản Timsort cho nhóm 5 người.
+
+Thành phần
+
+Yêu cầu chính
+
+Quick Sort
+
+Phân hoạch Hoare; pivot là trung vị của phần tử đầu, giữa, cuối; sắp xếp tại chỗ; không chuyển sang Insertion Sort
+
+Merge Sort
+
+Top-down đệ quy; cấp phát một mảng phụ kích thước N và tái sử dụng; bảo đảm ổn định
+
+Heap Sort
+
+Max-heap tại chỗ; dựng heap từ dưới lên; không dùng heapq
+
+Radix Sort
+
+LSD, cơ số 256, đúng 4 lượt; mỗi lượt Counting Sort ổn định
+
+Timsort dùng Powersort
+
+Nhận diện run, tính minrun, mở rộng run ngắn bằng Binary Insertion Sort, quản lý ngăn xếp và thứ tự gộp theo Powersort
+
+Timsort noA
+
+Tắt nhận diện run tự nhiên; chia thành các khối minrun cố định, sắp xếp các khối rồi gộp
+
+lib-sorted
+
+Dùng sorted() để kiểm tra đáp án và làm mốc hiệu năng thư viện
+
+Một run là một đoạn liên tiếp đã có thứ tự. Ví dụ [1, 4, 8, 2, 5, 9] có hai đoạn tăng dễ nhận thấy: [1, 4, 8] và [2, 5, 9]. Timsort tận dụng những đoạn như vậy; Powersort quyết định thứ tự gộp chúng.
+
+Quyền giảm tải của nhóm này: được bỏ cơ chế Galloping và không cần biến thể noB. Tuy nhiên, Powersort, minrun, nhận diện run và noA vẫn nằm trong phạm vi bắt buộc. Trong báo cáo nên nói rõ bản Timsort của nhóm áp dụng quy chế 5 người và không có Galloping.
+
+Dữ liệu thực nghiệm phải được sinh có kiểm soát, không chỉ nhập vài mảng mẫu.
+
+Miền giá trị theo đề là số nguyên từ 0 đến 2³¹ − 1.
+
+Mã
+
+Loại dữ liệu
+
+Cách tạo
+
+D1
+
+Ngẫu nhiên
+
+Sinh số ngẫu nhiên với seed xác định
+
+D2
+
+Tăng dần
+
+Sắp xếp D1
+
+D3
+
+Gần tăng dần
+
+Lấy D2 rồi hoán đổi ngẫu nhiên N/1.000 cặp
+
+D4
+
+Giảm dần
+
+Đảo ngược D2
+
+D5
+
+Nhiều giá trị trùng
+
+Chọn phần tử từ K giá trị phân biệt; K = 1.000, 10, 2
+
+D6
+
+Ghép các lô đã sắp xếp
+
+Chia D1 thành R đoạn, sắp xếp từng đoạn rồi nối lại; R = 2, 16, 256
+
+Ví dụ, D6 mô phỏng việc mỗi lô log đã có thứ tự nhưng toàn bộ dữ liệu sau khi nối các lô vẫn cần sắp xếp lại. Đây là cách gắn đề tài với data pipeline mà chưa cần xây một hệ thống AI hoàn chỉnh.
+
+Cách triển khai nên bắt đầu từ tính đúng, sau đó mới đến đo hiệu năng.
+
+1. Chốt thiết kế chung. Thống nhất phiên bản CPython từ 3.11 trở lên, giao diện gọi các thuật toán, quy ước đầu vào/đầu ra, cách đặt tên cấu hình và các cột CSV. Viết trước giả thuyết cho từng RQ.
+
+2. Viết thuật toán và kiểm thử song song. Bắt buộc có mảng rỗng, một phần tử, hai phần tử đảo thứ tự, toàn giá trị trùng và giá trị biên. Thêm 1.000 ca ngẫu nhiên, độ dài 0–200, bao phủ D1–D6 và đối chiếu với sorted().
+
+3. Kiểm tra tính ổn định của Merge và Timsort. Dùng 1.000 đối tượng chứa (key, order), chỉ so sánh theo key, rồi xác nhận các đối tượng cùng khóa giữ nguyên thứ tự ban đầu. Ví dụ hai bản ghi có cùng điểm phải giữ thứ tự tương đối sau sắp xếp.
+
+4. Xây bộ chạy thực nghiệm tự động. Chương trình nhận thuật toán, loại dữ liệu, N, seed và chế độ đo; chạy rồi lưu CSV. Mỗi thuật toán phải nhận dữ liệu ban đầu tương đương, tránh việc thuật toán chạy sau nhận mảng đã được thuật toán trước sắp xếp.
+
+5. Chạy thử nhỏ trước, chạy ma trận chính thức sau. Kiểm tra runner, thời gian chạy và định dạng CSV trước khi tiến hành hàng loạt cấu hình lớn.
+
+6. Tạo biểu đồ từ CSV và viết kết luận. Mỗi hình phải truy được về dữ liệu đo thật; giải thích cả kết quả trái dự đoán.
+
+Bộ đo có những quy định bắt buộc sau:
+
+Hạng mục
+
+Quy định
+
+Môi trường
+
+CPython thống nhất; thuật toán Python thuần; không dùng NumPy, Numba, Cython… để thay phần khảo sát
+
+Cách chạy
+
+Mỗi lượt đo trong một tiến trình riêng; thuật toán bên trong chạy đơn luồng
+
+Timeout
+
+60 giây; vượt ngưỡng ghi timeout, không coi là thời gian hoàn thành đúng 60 giây
+
+Thời gian
+
+Dùng time.perf_counter_ns(); chỉ đo thực thi thuật toán
+
+Bộ nhớ
+
+Dùng tracemalloc ở lượt riêng --mem
+
+Số phép toán
+
+Đếm ở lượt riêng --count; tắt bộ đếm khi đo thời gian
+
+Lặp thực nghiệm
+
+3 lượt với 3 seed khác nhau; báo median, min, max
+
+Kiểm soát
+
+Giữ GC bật mặc định; không dùng sys.setrecursionlimit() để che lỗi đệ quy
+
+Không tính sinh dữ liệu, sao chép đầu vào chuẩn bị cho phép đo, kiểm tra đáp án, in màn hình hay ghi CSV vào thời gian thuật toán. Runner còn phải ghi trạng thái và output_check theo công thức checksum trong đề.
+
+Với 5 thành viên, cách chia phù hợp nhất với đặc tả là 2–2–1.
+
+Nhóm phụ trách
+
+Công việc kỹ thuật
+
+Phần nghiên cứu chủ trì
+
+Thành viên 1 và 2
+
+Quick, Merge, bộ sinh D1–D6 và kiểm thử liên quan
+
+RQ1
+
+Thành viên 3 và 4
+
+Heap, Radix, runner và các chế độ đo
+
+RQ2
+
+Thành viên 5
+
+Timsort/Powersort, noA, kiểm thử ổn định
+
+RQ3
+
+Trong mỗi cặp, phải luân phiên cài đặt và kiểm thử/review. Không chia một người chỉ code, một người chỉ viết báo cáo hoặc slide. Các nhóm phụ trách phải review chéo và ghi đóng góp trong PHAN_CONG.md.
+
+Phương án là giao phần Timsort cho người có nền tảng thuật toán vững nhất; hai cặp còn lại hỗ trợ review và kiểm thử vì đây vẫn là phần khó dù đã được giảm Galloping. Chủ trì một RQ cũng không có nghĩa chỉ dùng thuật toán do mình viết: các RQ sử dụng kết quả chung của cả nhóm.
+
+Lộ trình và sản phẩm nộp đã được quy định khá rõ.
+
+Mốc
+
+Kết quả cần đạt
+
+D0–D2
+
+Kế hoạch nghiên cứu 1 trang, 3 RQ, giả thuyết, phân công, giao diện code chung
+
+D3–D6
+
+Thuật toán qua kiểm thử; runner tạo được CSV mẫu; viết phần phương pháp
+
+D7
+
+Kiểm tra tiến độ trên lớp: chạy test, demo một cấu hình, trình bày kế hoạch đo
+
+D8–D10
+
+Hoàn thành thực nghiệm RQ1–RQ3 và thu CSV
+
+D11–D12
+
+Sinh biểu đồ, hoàn thiện bản thảo báo cáo
+
+D13
+
+Review chéo, kiểm tra trích dẫn, chạy lại test, đóng gói
+
+D14
+
+Nộp và bảo vệ
+
+Gói nộp gồm:
+
+paper/: PDF và nguồn Word hoặc LaTeX, IEEE hai cột, tối đa 6 trang nội dung.
+
+src/, tests/: mã nguồn và bộ kiểm thử.
+
+bench/: runner và script tạo biểu đồ.
+
+results/: CSV thô và biểu đồ.
+
+data/: generator và thông tin tái tạo dữ liệu.
+
+README.md, PHAN_CONG.md: hướng dẫn chạy và bằng chứng đóng góp.
+
+Báo cáo cần có bối cảnh, kiến thức nền, phương pháp, thiết lập thực nghiệm, kết quả của ba RQ, thảo luận hạn chế và kết luận. Tiêu đề, Abstract 150–250 từ và 3–5 keywords bắt buộc bằng tiếng Anh; tài liệu không quy định toàn bộ phần thân phải bằng tiếng Anh. Có khai báo việc dùng AI và cách nhóm kiểm chứng.
+
+Nhóm 5 người có buổi bảo vệ 35 phút, gồm trình bày, chạy lại cấu hình được chọn từ CSV và vấn đáp cá nhân. Thang điểm đồ án là 6 điểm nhóm + 4 điểm cá nhân, nên mỗi người phải hiểu code, truy vết được thuật toán, sửa được yêu cầu nhỏ và giải thích số liệu.
+
+Nếu muốn mở rộng một chút, phương án là chỉ chọn một hướng sau khi hoàn thành phần bắt buộc.
+
+Hướng mở rộng
+
+Giá trị bổ sung
+
+Mức ưu tiên đề xuất
+
+Thử nhiều mức xáo trộn hơn cho D3
+
+Thấy rõ lợi ích nhận diện run thay đổi khi dữ liệu kém có thứ tự dần
+
+Cao
+
+Tăng R của D6 thêm vài mức
+
+Phân tích sâu ảnh hưởng số lô và độ dài run
+
+Cao
+
+Tăng N lên 2 triệu
+
+Bổ sung bằng chứng về khả năng mở rộng; đề đã cho phép nếu đủ thời gian
+
+Vừa
+
+Bổ sung Galloping và noB
+
+Đo thêm đóng góp của cơ chế thứ hai
+
+Khó, chỉ nên làm khi phần chính đã chắc
+
+Làm minh họa từng bước trên mảng nhỏ
+
+Hỗ trợ thuyết trình và luyện vấn đáp
+
+Phụ trợ
+
+Với nhóm này, cần ưu tiên làm chắc Timsort/Powersort, runner và số liệu của ba RQ, rồi mở rộng độ xáo trộn của D3. Hướng này bám sát câu hỏi nghiên cứu và tận dụng được phần lớn code đã có. Một chương trình dòng lệnh rõ ràng là đủ để triển khai; giao diện chỉ nên làm sau khi các phần được chấm chính đã hoàn chỉnh.
+
+Phần II Proposal nghiên cứu và phân công
+
+Kế hoạch nghiên cứu tóm tắt
+
+Đề tài: Khảo sát thực nghiệm các thuật toán sắp xếp kinh điển và Timsort dùng Powersort trên dữ liệu gần có thứ tự của pipeline AI.
+
+Nhóm: My, Ngân, Hải, Thiện và Dân. Mục tiêu là xác định điều kiện lựa chọn thuật toán theo thời gian, bộ nhớ phụ và số phép toán trong môi trường Python thuần. Đây là nghiên cứu thực nghiệm; các nhận định dưới đây là giả thuyết cần kiểm chứng bằng dữ liệu.
+
+RQ và người phụ trách
+
+Phạm vi thực nghiệm
+
+Giả thuyết ban đầu
+
+RQ1 — My và Ngân
+
+Quick, Merge, Heap, Radix trên D1; 5 mức N từ 10.000 đến 1.000.000
+
+Các cài đặt có tốc độ tăng thời gian và chi phí bộ nhớ khác nhau; Radix với 4 lượt cố định có thể có xu hướng tăng trưởng thuận lợi.
+
+RQ2 — Hải và Thiện
+
+Bốn thuật toán cơ bản trên D1–D6, N = 100.000 và 1.000.000; đủ các mức K và R
+
+Mức có thứ tự, số khóa phân biệt và cấu trúc lô có thể làm thay đổi thứ hạng hiệu năng.
+
+RQ3 — Dân
+
+Quick, Merge, Timsort, noA và lib-sorted trên cùng dữ liệu D1–D6, ở hai mức N trên
+
+Nhận diện run có lợi rõ hơn trên dữ liệu có các run dài; lợi ích có thể giảm hoặc không xuất hiện trên dữ liệu ngẫu nhiên.
+
+Phạm vi: Cài đặt Python thuần; Timsort có Powersort, minrun và nhận diện run. Áp dụng giảm tải nhóm 5 người: bỏ Galloping và noB. Chưa triển khai GUI hoặc mở rộng trong giai đoạn bắt buộc.
+
+Phương pháp: Một máy đo chính, CPython 3.12, ba seed 2026/2027/2028; tách thời gian, bộ nhớ và bộ đếm; mỗi lượt là một tiến trình riêng với timeout 60 giây. Kiểm tra đúng bằng oracle; lưu CSV gốc và báo median/min/max.
+
+Đầu ra và mốc: D2 chốt giao diện và kế hoạch; D6 thuật toán qua test và runner hoạt động; D7 demo tiến độ; D10 đủ CSV; D12 có bản thảo; D13 kiểm tra tái lập; D14 nộp và bảo vệ. Gói nộp gồm paper IEEE tối đa 6 trang nội dung, source, tests, generator, runner, CSV, biểu đồ, README, phân công, khai báo AI và slide.
+
+Tổ chức: My–Ngân phụ trách Quick/Merge và generator; Hải–Thiện phụ trách Heap/Radix và runner; Dân phụ trách Timsort/noA. Hải tích hợp và vận hành benchmark; Ngân tổng hợp bản thảo. Mỗi người viết và bảo vệ phần kỹ thuật của mình.
+
+Tài liệu căn cứ: csd203_sorting_rbl_nhom_5_nguoi(1).md; Quy định chung đồ án nhóm CSD203 FA26; Đề tài 1 Sorting Timsort CSD203 FA26. Khi viết phần thuật toán, đọc các nguồn bắt buộc trong đặc tả: Hoare (1962), Williams (1964), listsort.txt của CPython, Munro và Wild (2018), Goodrich và cộng sự (2013). Mỗi cơ chế Timsort/Powersort cần ánh xạ tới hàm triển khai trong Methods.
+
+Phân công cá nhân và phối hợp
+
+Các phân công và quy ước từ phần này là kế hoạch triển khai của nhóm. Các yêu cầu bắt buộc của môn và phạm vi giảm tải được giữ như Phần I. Thành viên bắt đầu theo bảng nhiệm vụ; mọi điều chỉnh được ghi trong PHAN_CONG.md, không cần tổ chức họp để khởi động.
+
+Thành viên
+
+Triển khai chính
+
+Kiểm thử và review
+
+Phần báo cáo và bàn giao
+
+My
+
+Quick Sort; generator D1–D3
+
+Test/review Merge và D4–D6; review Heap
+
+Phương pháp Quick; biểu đồ thời gian và phân tích RQ1
+
+Ngân
+
+Merge Sort; generator D4–D6
+
+Test/review Quick và D1–D3; review Radix
+
+Phương pháp Merge; bộ nhớ RQ1; tổng hợp bản thảo
+
+Hải
+
+Heap Sort; runner, worker và đo thời gian
+
+Test/review Radix và chế độ mem/count; review ngăn xếp Powersort
+
+Thiết lập thực nghiệm; tích hợp code; chạy benchmark chính
+
+Thiện
+
+Radix Sort; chế độ mem/count và xuất CSV
+
+Test/review Heap, timing và timeout; review run, noA và stability
+
+Phương pháp Radix; biểu đồ và phân tích RQ2
+
+Dân
+
+Timsort/Powersort, noA; bộ test ổn định
+
+Review chéo Quick/Merge; kiểm tra đối chứng RQ3
+
+Phương pháp Timsort; biểu đồ, ablation và phân tích RQ3
+
+Trong mỗi cặp, mỗi người vừa triển khai vừa kiểm thử phần của người còn lại. Ngân phối hợp với Dân áp dụng test ổn định cho Merge. Hải và Thiện review hai phần của Timsort để Dân không phải tự xác nhận toàn bộ cài đặt. Mỗi tác giả sửa lỗi do reviewer phát hiện và bổ sung test hồi quy trước khi ghép.
+
+Phụ thuộc bàn giao: My–Ngân cung cấp generator chung trước D3; Hải cung cấp khung gọi thuật toán và CSV mẫu trước D3. Đến D4, mỗi thành viên ghép ít nhất một thuật toán đã qua test nhỏ vào runner. RQ1 sử dụng cả Heap/Radix; RQ3 sử dụng Quick/Merge. Người chủ trì RQ không viết lại thuật toán đã có.
+
+Quản lý mã nguồn: Hải khởi tạo một Git repository tên csd203-sorting-rbl. Nhánh làm việc lần lượt là rq1-my, rq1-ngan, rq2-hai, rq2-thien và rq3-dan; main chỉ nhận thay đổi đã qua test và review. Hải thực hiện tích hợp. URL repository được Hải ghi trong README khi tạo; đây là thao tác triển khai, không phải nội dung chờ quyết định.
+
+Lưu đóng góp: PHAN_CONG.md ghi người triển khai, người review, module, commit, test và kết quả liên quan. Mỗi người cập nhật ngắn tiến độ và vướng mắc sau phiên làm việc. Khi thay đổi giao diện, Hải cập nhật đặc tả và báo cho các chủ module trước khi ghép. AI Log ghi các gợi ý quan trọng, quyết định chấp nhận/sửa/bác bỏ và bằng chứng kiểm chứng.
+
+Giao diện mã nguồn và môi trường
+
+Môi trường: Chọn CPython 3.12, môi trường ảo venv và unittest cho kiểm thử. Hải ghi đầy đủ phiên bản 3.12.x trên máy đo vào README trước D2; các thành viên cài cùng bản đó. Thuật toán, generator và runner dùng thư viện chuẩn. Matplotlib chỉ dùng ở script tạo hình từ CSV, nằm ngoài phép đo và được ghi phiên bản trong requirements-plot.txt.
+
+Máy đo: Phân công máy của Hải làm máy đo chính. Hải ghi CPU, RAM, hệ điều hành, phiên bản Python và chế độ nguồn vào environment.json. Nếu máy không khả dụng, chuyển toàn bộ lượt đo chính thức sang máy Thiện và ghi thay đổi; không trộn hai máy trong một bảng so sánh. Không điền thông số phần cứng khi chưa kiểm tra thực tế.
+
+Giao diện chuẩn: Mỗi module cung cấp sort(a) → None, sắp xếp tăng dần trực tiếp danh sách a. Hàm sort không kiểm tra miền đầu vào, không ghi log, không ghi CSV và không bật bộ đếm. Việc xác thực đầu vào do runner/test thực hiện bên ngoài vùng đo. Merge và Timsort được dùng bộ nhớ phụ đúng đặc tả dù cùng giao diện sửa danh sách tại chỗ.
+
+Lượt đếm: Mỗi module cung cấp sort_counted(a) → dict với cùng kết quả sắp xếp, trả về key_comparisons, array_reads, array_writes, run_count và avg_run_len. Trường không áp dụng trả None. Hai đường chạy phải có cùng quyết định thuật toán và qua test đối chiếu; không chèn cập nhật bộ đếm vào sort(a).
+
+Tính ổn định: Merge/Timsort nhận được các đối tượng so sánh chỉ theo key. Dùng __lt__ theo key và giữ order để kiểm chứng, không sắp xếp tuple theo cả hai trường. Khi khóa bằng nhau phải giữ thứ tự ban đầu. Radix chỉ nhận số nguyên trong miền quy định.
+
+Vị trí
+
+Nội dung và chủ trách nhiệm
+
+src/quick.py và src/merge.py
+
+Quick — My; Merge — Ngân
+
+src/heap.py và src/radix.py
+
+Heap — Hải; Radix — Thiện
+
+src/timsort.py
+
+Timsort và noA, dùng chung phần minrun/merge/Powersort — Dân
+
+data/generate.py
+
+generate(dataset, n, seed, k=None, runs=None) → list[int] — My, Ngân
+
+bench/runner.py và bench/worker.py
+
+Điều phối tiến trình, gọi thuật toán và chế độ đo — Hải, Thiện
+
+bench/configs.json và bench/plot.py
+
+Ma trận thử và biểu đồ — Hải quản lý cấu hình; từng RQ bổ sung hình
+
+tests/ và results/
+
+Test theo module; results/raw và results/figures theo run_id
+
+paper/ và tài liệu gốc repository
+
+Paper, slide, README, PHAN_CONG.md, AI_LOG.md, environment.json
+
+Tên thuật toán trong CSV: quick, merge, heap, radix, timsort, timsort-noA, lib-sorted. timsort là bản nhóm 5 người không Galloping; timsort-noA chỉ tắt nhận diện run, giữ các cơ chế còn lại. lib-sorted gọi sorted(a) và nhận danh sách trả về, không sao chép kết quả trở lại a trong vùng đo.
+
+Dữ liệu và ma trận thực nghiệm
+
+Seed chính thức: 2026, 2027, 2028. Mỗi cấu hình và chế độ đo chạy một lượt cho mỗi seed, tổng cộng ba lượt. Fuzz test dùng seed riêng 203 để không nhầm với bộ benchmark. Mỗi phép so sánh giữa thuật toán dùng cùng dữ liệu đầu vào và cùng phiên bản generator.
+
+Quy ước generator: D1 dùng random.Random(seed), miền [0, 2³¹ − 1]. D2 là sorted(D1); D4 đảo D2. D3 xuất phát từ D2, thực hiện floor(N/1000) lần hoán đổi hai vị trí phân biệt, có thể lặp vị trí giữa các lần; dùng luồng random.Random(seed + 10000) cho việc chọn vị trí. Với N nhỏ hơn 1000, số lần hoán đổi bằng 0. D5 lấy K giá trị phân biệt bằng lấy mẫu không lặp trong miền, rồi chọn ngẫu nhiên N phần tử từ tập đó. D6 chia D1 thành R đoạn liên tiếp; phần dư chia lần lượt cho các đoạn đầu, độ dài chênh nhau tối đa 1; sắp từng đoạn rồi nối lại. R là số lô sinh ra, không mặc nhiên bằng số run tự nhiên Timsort nhận diện.
+
+Định danh dữ liệu: Lưu dataset, N, K, R, seed, generator_version và input_sha256. Checksum đầu vào là SHA-256 của dãy số được mã hóa unsigned 32-bit little-endian theo đúng thứ tự. Checksum tính ngoài vùng đo. Dữ liệu lớn được tái tạo từ generator và cấu hình; lưu mẫu nhỏ để minh họa.
+
+RQ
+
+Thuật toán
+
+Quy mô và dữ liệu
+
+RQ1
+
+quick, merge, heap, radix
+
+D1; N = 10.000, 50.000, 100.000, 500.000, 1.000.000
+
+RQ2
+
+quick, merge, heap, radix
+
+N = 100.000 và 1.000.000; D1–D4; D5 với K = 1.000, 10, 2; D6 với R = 2, 16, 256
+
+RQ3
+
+quick, merge, timsort, timsort-noA, lib-sorted
+
+Cùng 2 mức N và 10 cấu hình dữ liệu như RQ2
+
+Hải gộp các cấu hình trùng nhau để chạy một lần và dùng lại kết quả cho các RQ liên quan. Ba chế độ là time, mem và count; lib-sorted chỉ đo time/mem vì không thể đếm các phép toán nội bộ bằng cùng cơ chế Python thuần. Các trường count của lib-sorted để trống, không ghi 0.
+
+Giao thức lượt đo: Worker sinh dữ liệu và bản sao làm việc trước khi đo, làm nóng một lần trên dữ liệu cùng họ với N tối đa 1.000 rồi bỏ kết quả. GC giữ bật mặc định. Chế độ time chỉ bao quanh lời gọi thuật toán bằng perf_counter_ns. Chế độ mem dùng tiến trình riêng, chỉ bật tracemalloc ngay trước thuật toán và đọc đỉnh cấp phát trước khi tắt. Chế độ count chạy riêng. Mọi lượt đều kiểm tra kết quả ngoài vùng đo.
+
+Hải chạy tuần tự bằng subprocess.run với timeout=60. Không chạy benchmark đồng thời với các tác vụ nặng khác. Thời gian khởi động, generator, warm-up, oracle và CSV không được cộng vào elapsed_ms. Timeout áp dụng toàn tiến trình; ghi thêm phase để phân biệt chưa đến vùng thuật toán với đang sắp xếp. Không dùng một timeout ở khâu chuẩn bị để kết luận thuật toán cần hơn 60 giây.
+
+Kết quả kiểm thử và tiêu chí nghiệm thu
+
+Schema CSV: Một dòng cho một thuật toán × dữ liệu × seed × chế độ × phiên bản code. Hải và Thiện thống nhất thứ tự cột như bảng dưới; cột không áp dụng để trống. CSV dùng UTF-8, dấu phẩy phân cách và dấu chấm thập phân.
+
+Nhóm trường
+
+Tên cột
+
+Định danh và môi trường
+
+run_id, rq, algorithm, code_commit, generator_version, machine_id, python_version
+
+Đầu vào và chế độ
+
+dataset, n, k, runs, seed, input_sha256, mode
+
+Trạng thái và xác thực
+
+status, phase, error_type, output_check, oracle_match
+
+Kết quả đo
+
+elapsed_ms, throughput_kps, mem_peak_bytes, key_comparisons, array_reads, array_writes, run_count, avg_run_len
+
+Trạng thái: ok khi kết quả trùng đầy đủ với oracle; wrong khi sai; timeout khi worker bị ngắt quá hạn; oom khi xác định được lỗi bộ nhớ; crash cho lỗi khác, kể cả RecursionError. Không tự suy đoán oom từ mọi trường hợp tiến trình bị dừng. Dòng không hoàn thành hoặc sai không được dùng tính tốc độ; giữ lại dòng và nguyên nhân để phân tích.
+
+Kiểm tra đáp án: So sánh đầy đủ danh sách kết quả với sorted của đầu vào. Đồng thời tính output_check bằng h = (31 × h + x) mod 2⁶⁴, bắt đầu h = 0. Checksum hỗ trợ truy vết; không thay thế phép so sánh đáp án đầy đủ. Chế độ mem tắt tracing trước khi tạo/kiểm tra oracle để không tính bộ nhớ kiểm thử.
+
+Bộ test bắt buộc: Mọi thuật toán và noA qua [], [7], [2, 1], [3, 3, 3], [0, 2147483647, 0] và 1.000 ca ngẫu nhiên độ dài 0–200 bao phủ D1–D6. Với D6 nhỏ cho phép lô rỗng. Merge, Timsort và noA qua kiểm thử ổn định trên 1.000 bản ghi. Thêm test ranh giới minrun, run giảm ngặt, khóa bằng nhau và các lần gộp nhiều run. sort và sort_counted phải cho cùng đầu ra.
+
+Quy ước đếm: Quick/Merge/Heap/Timsort đếm từng phép so sánh khóa thực tế, gồm chọn pivot và xử lý run nếu có. Radix đếm đọc/ghi phần tử trong mảng dữ liệu, mảng tạm và mảng đếm; không tính thao tác của runner/oracle. Báo riêng loại chỉ số, không đặt số đọc/ghi của Radix ngang số so sánh như cùng một đơn vị. run_count/avg_run_len thu ở lượt count; ghi rõ run là run tự nhiên trước mở rộng minrun. Với noA các trường natural-run để trống.
+
+Tổng hợp: Với elapsed_ms > 0, throughput_kps = N / elapsed_ms. Báo median/min/max và số lượt ok trên ba seed, không gộp khác máy hoặc commit. Khi có lượt lỗi, nêu số lượt thành công; không trình bày median của tập thiếu như đủ ba lượt. Speedup = thời gian baseline / thời gian phương án so sánh. Mức giảm thời gian do nhận diện run = (T_noA − T_timsort) / T_noA × 100%; giá trị âm là kết quả hợp lệ.
+
+RQ3 đối chứng timsort/noA trên cùng điều kiện. Khoảng cách với lib-sorted chỉ là mốc thư viện, không quy toàn bộ lợi ích cho Powersort hay nhận diện run vì khác môi trường thực thi mã. Báo cáo giải thích kết quả trái giả thuyết và giới hạn suy rộng.
+
+Tiến độ thực hiện và bàn giao
+
+D0 là mốc bắt đầu được áp dụng theo lịch giao đề của môn; các mốc dưới đây dùng ngày tương đối D0–D14. Hải ghi ngày lịch tương ứng vào PHAN_CONG.md khi khởi tạo repository. Kế hoạch không tự thay đổi hạn nộp hoặc lịch kiểm tra của giảng viên.
+
+Mốc
+
+Người chủ trì
+
+Bàn giao và điều kiện hoàn thành
+
+D0–D2
+
+Hải; cả nhóm
+
+Repository, môi trường, giao diện, CSV mẫu, 3 RQ và giả thuyết; mỗi người có nhiệm vụ và reviewer
+
+D3–D4
+
+My, Ngân; Hải, Thiện; Dân
+
+Generator dùng chung; mỗi module ghép được vào runner; test nhỏ đúng; bản Methods đầu tiên
+
+D5–D6
+
+Từng chủ module
+
+Đủ thuật toán, noA và test bắt buộc; ba chế độ đo hoạt động; cấu hình pilot tạo CSV hợp lệ
+
+D7
+
+Hải demo; cả nhóm trả lời
+
+Demo test, runner một cấu hình và kế hoạch đo; chuẩn bị theo checkpoint 10 phút của môn
+
+D8–D10
+
+Hải vận hành; chủ RQ kiểm tra
+
+Đủ CSV cho ba RQ; rà soát checksum, lỗi và kết quả bất thường; chưa chạy mở rộng nếu còn thiếu phần bắt buộc
+
+D11–D12
+
+My, Ngân, Thiện, Dân
+
+Biểu đồ từ CSV; mỗi RQ có kết luận có điều kiện; Ngân ghép paper, Hải hoàn thiện Setup
+
+D13
+
+Cả nhóm
+
+Review chéo báo cáo và trích dẫn; hồi quy test; chạy lại cấu hình chọn từ CSV; gói nộp đủ thành phần
+
+D14
+
+Cả nhóm
+
+Nộp và bảo vệ theo lịch môn; mỗi người giải thích, trace, sửa code và diễn giải số liệu phần mình
+
+Phân công viết: My viết Quick và kết quả thời gian RQ1; Ngân viết Merge, bộ nhớ RQ1 và ghép bản thảo; Hải viết Heap và Experimental Setup; Thiện viết Radix và RQ2; Dân viết Timsort, ablation và RQ3. Mỗi người bổ sung hạn chế liên quan phần mình. Ngân tổng hợp Introduction/Conclusion từ kết quả đã kiểm chứng; cả nhóm review.
+
+Điều kiện nghiệm thu gói nộp: Code chạy theo README; test đạt; mỗi hình truy được về CSV và script; mỗi kết luận định lượng có cấu hình và baseline; không có số liệu giả. Có PDF và nguồn paper, source/tests, generator, dữ liệu mẫu, CSV gốc, script vẽ, môi trường, PHAN_CONG.md, AI_LOG.md và slide. Bản paper tuân thủ yêu cầu IEEE của môn; tài liệu bối cảnh và kế hoạch này không bị áp dụng giới hạn 6 trang của paper.
+
+Kiểm tra tái lập trước bảo vệ: Hải chạy lại một số dòng đã nộp trên máy đo chính. status và output_check phải khớp; thời gian trong biên độ 0,5–2,0 lần median theo quy định môn. Khi có chênh lệch, kiểm tra môi trường và chạy lại có ghi log; không xóa số liệu bất lợi. Cả nhóm luyện vấn đáp cá nhân không dùng AI.
+
+Xử lý vướng mắc: Lỗi tính đúng ưu tiên sửa trước đo; lỗi generator hoặc phần đo dùng chung yêu cầu chạy lại cấu hình bị ảnh hưởng. Timeout/crash/oom được lưu đúng trạng thái, không đổi thuật toán bắt buộc hoặc tăng giới hạn đệ quy để che lỗi. Nếu module chậm bàn giao, reviewer hỗ trợ test và tích hợp; tác giả vẫn chịu trách nhiệm hiểu và bảo vệ phần đó.
+
+Mở rộng sau nghiệm thu: Chỉ khi đủ ba RQ, bổ sung D3 với số hoán đổi floor(N/10000), floor(N/1000), floor(N/100) tại N = 100.000, giữ nguyên seed và thuật toán. Ghi nhãn extension, không thay D3 chuẩn trong kết quả bắt buộc. Không triển khai Galloping/noB trong kế hoạch cơ sở.
