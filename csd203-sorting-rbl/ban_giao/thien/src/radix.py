@@ -50,8 +50,9 @@ def sort(a: list[int]) -> None:
         for idx in range(n - 1, -1, -1):
             val = a[idx]
             byte_val = (val >> shift) & 0xFF
-            count[byte_val] -= 1
-            output[count[byte_val]] = val
+            pos = count[byte_val] - 1
+            count[byte_val] = pos
+            output[pos] = val
 
         # 4. Copy back to list `a`
         a[:] = output

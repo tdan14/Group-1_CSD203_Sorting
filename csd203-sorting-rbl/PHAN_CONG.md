@@ -45,5 +45,6 @@ Thêm dòng sau mỗi phần việc; thay nội dung mẫu bằng bằng chứng
 | Ngày | Người | Module và thay đổi | Commit/PR | Reviewer | Test/CSV/bằng chứng |
 |---|---|---|---|---|---|
 | 2026-10-28 | Codex theo yêu cầu Dân | Gộp bốn gói, giữ nguyên source; thêm Timsort/noA và tài liệu phần Dân | Chưa commit | Chờ thành viên | 72 test đạt; SHA-256 97 bản gốc + 27 file tích hợp; xem docs/TICH_HOP.md |
+| 2026-10-29 | Thiện (`rq2-thien`) | Đồng nhất biến `pos` trong `src/radix.py` (loại bỏ 4N lượt đọc mảng theo góp ý Ngân); nộp methods_radix.md, rq2_hypothesis.md, rq2_analysis.md; review Heap của Hải và Timsort của Dân | `rq2-thien` | Ngân, Hải | 72/72 test PASS; test_radix PASS 1.000 fuzz cases; BAO_CAO_PHAN_HOI_THIEN.md |
 
 D0 và hạn nộp: ghi theo lịch giảng viên. Chưa tự gán ngày lịch trong bộ khung.
