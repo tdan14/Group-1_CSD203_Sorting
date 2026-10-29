@@ -11,6 +11,43 @@ Chi tiết nguồn từng file và các điểm nhóm cần xem sau ở
 [ban_giao/](ban_giao/README.md), gồm cả test cũ, AI log, tài liệu cá nhân,
 bản thảo, CSV mẫu và hình minh họa của My.
 
+## Phần Ngân và bản thảo có dữ liệu đo
+
+Bản cập nhật này giữ nguyên thuật toán/generator/worker tại commit `c73bc10`,
+bổ sung review Quick/Radix, kiểm tra CSV và tổng hợp paper bằng LaTeX.
+
+- Bản thảo: [PDF](paper/ieee/main.pdf), [nguồn LaTeX](paper/ieee/main.tex).
+- Phần Ngân: [Methods Merge](paper/methods_merge.md), [bộ nhớ RQ1](paper/rq1_memory.md).
+- Dữ liệu: `results/raw/ngan_20261029.csv`; tổng hợp: `results/summary/ngan_20261029.csv`.
+- Môi trường thực tế và SHA-256 mã đo: `results/environment_ngan_20261029.json`.
+
+Đây là lượt đo trên máy phát triển của Ngân. Không nhận là máy chính của Hải,
+không coi chạy test là chữ ký review của thành viên. Bản phân tích RQ2 cũ có
+số liệu thiếu CSV nguồn được thay bằng bảng tạo từ CSV đo mới.
+Các mục tích hợp ngày 28/10 bên dưới giữ bối cảnh bàn giao ban đầu.
+
+Kiểm tra và tái tạo từ thư mục `csd203-sorting-rbl/`, dùng CPython 3.12.14:
+
+```powershell
+python -B -X utf8 -m unittest discover -s tests -t . -v
+python -B -m scripts.check_ready
+python -B -m scripts.analyze_ngan --audit-only
+python -m pip install -r requirements-plot.txt
+python -B -m scripts.analyze_ngan
+tectonic -b https://data1b.fullyjustified.net/tlextras-2022.0r0.tar paper/ieee/main.tex
+```
+
+`--audit-only` chỉ dùng thư viện chuẩn. Matplotlib chỉ phục vụ hình từ CSV,
+không nằm trong worker. Phải hoàn thành đủ ma trận và kiểm tra hash trước
+khi script xuất bảng/hình. File có đuôi `_generated.tex` được tạo từ dữ liệu,
+không gõ số đo bằng tay. Nếu không dùng Tectonic, có thể biên dịch `main.tex`
+bằng XeLaTeX với IEEEtran, newtxtext/newtxmath và các gói được khai báo.
+
+Chạy lại phép đo bằng runner với **tên CSV mới**; không ghi đè dữ liệu gốc.
+Phải dùng đúng mã trong `src/`, `data/`, `bench/` theo manifest đo. Kiểm tra
+bản bàn giao gốc bằng `scripts.check_submissions.check_manifest`; phép kiểm
+tra active so với bản bàn giao lịch sử sẽ báo các tệp đã được sửa có chủ đích.
+
 ## Chạy từ đâu
 
 Mở terminal tại thư mục có README này, tức `csd203-sorting-rbl/`.
@@ -95,3 +132,8 @@ Timsort/RQ3 mới. Nhóm cần CSV thật để viết kết quả và hoàn thi
 
 Tài liệu gốc giữ lại lịch sử và trạng thái tại thời điểm từng người bàn
 giao. Trạng thái tích hợp hiện tại được ghi trong `docs/TICH_HOP.md`.
+
+Audit hoàn tất: 1.308/1.308 lượt ok; 436/436 nhóm đủ ba seed; 69 đầu vào
+được tái sinh và đối chiếu hash/checksum. Chạy lại riêng Merge/D1/N=100.000/
+seed=2026/mem: oracle đúng, input/output checksum khớp và peak 800.732 byte
+khớp dòng gốc. Lượt replay không được chèn vào CSV nghiên cứu.

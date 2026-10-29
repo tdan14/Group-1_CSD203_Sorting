@@ -1,5 +1,19 @@
 # Phân công và bằng chứng đóng góp
 
+## Cập nhật phần Ngân — 30/10/2026
+
+Ngân yêu cầu Codex hoàn thiện phần Merge, bộ nhớ RQ1, review Quick/Radix
+và tổng hợp bài LaTeX bằng dữ liệu thực chạy. Các thuật toán, generator,
+runner và config giữ nguyên tại `c73bc10`. Test mới quan sát trình tự so
+sánh Quick và truy cập mảng logic Radix; không đo hiệu năng trên wrapper.
+
+Bằng chứng được lưu ở `results/raw/ngan_20261029.csv`, manifest môi trường,
+summary cùng tên và `paper/ieee/`. `scripts/analyze_ngan.py` kiểm tra ma
+trận, tái sinh đầu vào, đối chiếu hash/checksum trước khi tạo bảng/hình.
+Đây là máy phát triển của Ngân, không nhận là máy chính của Hải. Kết quả
+trái giả thuyết được giữ lại. Các ghi nhận ngày 28–29/10 bên dưới là lịch sử;
+review tự động có hỗ trợ AI không thay chữ ký review của My hoặc cả nhóm.
+
 ## Cập nhật tích hợp 28/10/2026
 
 Đã nhận đủ gói My, Ngân, Hải, Thiện từ `src.zip`; giữ nguyên 97 file ở
@@ -48,3 +62,8 @@ Thêm dòng sau mỗi phần việc; thay nội dung mẫu bằng bằng chứng
 | 2026-10-29 | Thiện (`rq2-thien`) | Đồng nhất biến `pos` trong `src/radix.py` (loại bỏ 4N lượt đọc mảng theo góp ý Ngân); nộp methods_radix.md, rq2_hypothesis.md, rq2_analysis.md; review Heap của Hải và Timsort của Dân | `rq2-thien` | Ngân, Hải | 72/72 test PASS; test_radix PASS 1.000 fuzz cases; BAO_CAO_PHAN_HOI_THIEN.md |
 
 D0 và hạn nộp: ghi theo lịch giảng viên. Chưa tự gán ngày lịch trong bộ khung.
+
+Kiểm chứng phần Ngân: 80/80 test đạt trên CPython 3.12.14; check_ready đạt.
+Ma trận mới có 1.308 lượt, tất cả status=ok. Manifest bàn giao lịch sử
+khớp 96/97: bản Radix trong ban_giao/thien đã được sửa ở 4faec1c trước
+đợt này; không phải sửa đổi mới của Ngân.

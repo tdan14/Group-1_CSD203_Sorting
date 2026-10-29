@@ -1,8 +1,13 @@
 # Research Question 2 (RQ2): Hypotheses & Experimental Analysis Plan
 
+> Technical clarification during Ngan's compilation (2026-10-30): fixed loop
+> counts are distinguished from elapsed-time predictions; auxiliary complexity
+> is distinguished from traced bytes. These corrections are not a claim of
+> preregistration. Measured outcomes and the CSV source are in `rq2_analysis.md`.
+
 **Focus:** Impact of data distribution, pre-sortedness, key duplication, and chunked batches on algorithmic performance.  
 **Lead Authors:** Hai (`rq2-hai`) & Thien (`rq2-thien`).  
-**Algorithms Evaluated:** `quick`, `merge`, `heap`, `radix` (with `lib-sorted` as external baseline).  
+**Algorithms Evaluated:** `quick`, `merge`, `heap`, `radix`. The `lib-sorted` reference belongs to RQ3.
 **Datasets Evaluated:** 
 - D1 (Uniform random), D2 (Sorted), D3 (Nearly sorted, $N/1000$ swaps), D4 (Reverse sorted).
 - D5 (Key duplication with $K \in \{1000, 10, 2\}$ distinct values).
@@ -21,21 +26,22 @@
 ## 2. Pre-Measurement Hypotheses
 
 ### Hypothesis H2.1 (Distribution Insensitivity of LSD Radix Sort)
-- **Radix Sort** (4-pass LSD, base 256) exhibits **complete distribution insensitivity**: its execution latency, peak memory, and memory accesses ($\text{array\_reads}$ and $\text{array\_writes}$) remain virtually constant across all distributions D1 through D6.
+- **Radix Sort** (4-pass LSD, base 256) executes the same logical array-access counts for fixed N across D1–D6. Its elapsed time and peak traced allocation must still be measured; they need not remain constant. A testable expectation is that prior sortedness does not remove any of its four passes.
 - **Theoretical Basis:** The algorithm unconditionally executes $d=4$ passes of Counting Sort. In each pass, every element is scanned regardless of prior ordering:
-  $$\text{array\_reads} = 4 \times (2N + 510), \quad \text{array\_writes} = 4 \times (2N + 256)$$
-  This predictable latency makes Radix Sort ideal for data pipelines where input entropy is highly volatile.
+  $$\text{array\_reads} = 4(5N + 510) = 20N + 2040,$$
+  $$\text{array\_writes} = N + 4(4N + 511) = 17N + 2044 \quad (N\ge2).$$
+  These formulas include output/count initialization according to the code's logical counting convention. They do not establish constant latency or optimality for a real pipeline.
 
 ### Hypothesis H2.2 (Behavior on Duplicate Keys — Dataset D5)
 - When key cardinality drops ($K = 1000 \to 10 \to 2$):
   - **Quick Sort** with Hoare partitioning and median-of-3 pivot will see partition balance affected. While Hoare's scheme handles equal keys better than Lomuto's (halting on duplicates), deep recursion or redundant swaps may still impact performance compared to 3-way partitioning.
   - **Heap Sort** execution time will decrease on extreme duplicates ($K=2$) because many sift-down comparisons terminate early when child values match the current node value.
-  - **Radix Sort** remains unchanged in time, but the distribution of elements across the 256 buckets in Pass 0 becomes heavily skewed into $K$ buckets.
+  - **Radix Sort** retains the same pass/access counts. Timing can change. In any byte pass, at most min(K, 256) buckets can be occupied; distinct full keys can share the same byte value.
 
 ### Hypothesis H2.3 (Behavior on Pre-Sorted and Chunked Data — D2, D3, D6)
-- **Heap Sort** maintains $\Theta(N \log N)$ execution time on D2, D3, and D6 with zero auxiliary memory ($S(N) = 0$), but fails to exploit pre-existing order, running substantially slower than algorithms tailored for natural runs.
+- **Heap Sort** has an $O(N\log N)$ worst-case time bound and $O(1)$ auxiliary words, but does not explicitly detect natural runs. Whether it is slower than an adaptive implementation is a measured question. $O(1)$ does not imply zero traced bytes.
 - **Merge Sort** maintains consistent $\Theta(N \log N)$ runtime and strict stability, with constant $O(N)$ auxiliary memory buffer allocation.
-- In-place algorithms (`quick`, `heap`, `radix` relative to comparisons) display distinct memory footprint advantages over `merge`.
+- **Quick** and **Heap** do not allocate an N-element auxiliary array; Quick still has recursion state. **Radix** and **Merge** both use $O(N)$ auxiliary storage. Their actual peaks depend on implementation and must be compared using the separate memory trials.
 
 ---
 

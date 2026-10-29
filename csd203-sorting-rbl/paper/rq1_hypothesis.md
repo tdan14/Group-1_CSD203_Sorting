@@ -1,5 +1,14 @@
 # Research Question 1 (RQ1): Execution Time Analysis & Hypotheses
 
+> **Compilation note, 2026-10-30:** The hypotheses below are retained as the
+> original predictions, not accepted conclusions. The measured N=10,000 D1
+> ranking contradicts H1.2. Neither the predicted 150x growth nor the 15–40x
+> library gap follows automatically from asymptotic complexity. The official
+> RQ1 matrix contains only Quick/Merge/Heap/Radix; library trials belong to RQ3
+> at N=100,000 and 1,000,000. The final paper uses only available measured
+> configurations. Memory analysis: `paper/rq1_memory.md`; combined results:
+> `paper/ieee/main.tex` and the audited CSV identified there.
+
 **Focus:** Scaling behavior of baseline sorting algorithms on large uniform random data.  
 **Lead Authors:** My (Time & Throughput Lead), Ngan (Memory Lead).  
 **Algorithms Evaluated:** `quick`, `merge`, `heap`, `radix` (with `lib-sorted` as external baseline).  

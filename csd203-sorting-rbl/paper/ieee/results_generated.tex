@@ -1,0 +1,67 @@
+% Generated from audited CSV by scripts/analyze_ngan.py. Do not edit numbers.
+\newcommand{\TrialCount}{1308}
+\newcommand{\OkCount}{1308}
+\newcommand{\InputCount}{69}
+\newcommand{\GroupCount}{436}
+\newcommand{\CompleteCount}{436}
+\newcommand{\FailureCount}{0}
+\newcommand{\QuickTimeMillion}{4,454.79}
+\newcommand{\QuickMemMillion}{0.001831}
+\newcommand{\QuickGrowth}{178.3}
+\newcommand{\MergeTimeMillion}{3,783.97}
+\newcommand{\MergeMemMillion}{7.630184}
+\newcommand{\MergeGrowth}{210.7}
+\newcommand{\HeapTimeMillion}{4,790.74}
+\newcommand{\HeapMemMillion}{0.000210}
+\newcommand{\HeapGrowth}{306.3}
+\newcommand{\RadixTimeMillion}{1,760.36}
+\newcommand{\RadixMemMillion}{15.268597}
+\newcommand{\RadixGrowth}{224.2}
+\newcommand{\MergeBytesPerElement}{8.001}
+\newcommand{\RunGainRandom}{3.0}
+\newcommand{\RunGainSorted}{91.6}
+\newcommand{\RunGainReverse}{57.0}
+\newcommand{\RunGainSmallMin}{-21.6}
+\newcommand{\RunGainSmallMax}{89.6}
+\newcommand{\RunGainLargeMin}{-9.8}
+\newcommand{\RunGainLargeMax}{91.6}
+\newcommand{\MemoryTableRows}{10,000 & 1.22 [1.19, 1.25] & 78.75 [78.75, 78.75] & 0.21 [0.21, 0.21] & 166.20 [166.20, 166.20] \\
+50,000 & 1.41 [1.38, 1.47] & 391.31 [391.31, 391.31] & 0.21 [0.21, 0.21] & 791.29 [791.29, 791.29] \\
+100,000 & 1.62 [1.53, 1.62] & 781.96 [781.96, 781.96] & 0.21 [0.21, 0.21] & 1,572.54 [1,572.54, 1,572.54] \\
+500,000 & 1.78 [1.69, 1.84] & 3,907.03 [3,907.03, 3,907.03] & 0.21 [0.21, 0.21] & 7,822.54 [7,822.54, 7,822.54] \\
+1,000,000 & 1.88 [1.81, 2.06] & 7,813.31 [7,813.31, 7,813.31] & 0.21 [0.21, 0.21] & 15,635.04 [15,635.04, 15,635.04] \\}
+\newcommand{\CoverageTableRows}{RQ1 & 180 & 180 & 0 \\
+RQ2 & 720 & 720 & 0 \\
+RQ3 & 840 & 840 & 0 \\}
+\newcommand{\CountTableRows}{Quick & 184,161 & 269,435 & 68,974 & 26,542,114 & 38,211,290 & 10,029,524 \\
+Merge & 120,420 & 387,652 & 277,232 & 18,673,907 & 58,576,755 & 40,902,848 \\
+Heap & 235,326 & 260,324 & 139,123 & 36,793,761 & 39,293,759 & 20,548,417 \\
+Radix & -- & 202,040 & 172,044 & -- & 20,002,040 & 17,002,044 \\}
+\newcommand{\DistributionTableRows}{D1 & Radix & 1,760.36 & 2.72 \\
+D2 & Radix & 2,117.03 & 1.57 \\
+D3 & Radix & 2,034.24 & 1.63 \\
+D4 & Radix & 2,092.69 & 1.64 \\
+D5 K=1000 & Radix & 728.08 & 5.25 \\
+D5 K=10 & Radix & 675.89 & 5.73 \\
+D5 K=2 & Radix & 695.26 & 5.72 \\
+D6 R=2 & Radix & 2,096.34 & 4.18 \\
+D6 R=16 & Radix & 2,358.75 & 2.05 \\
+D6 R=256 & Radix & 1,952.50 & 2.34 \\}
+\newcommand{\AdaptiveTableRows}{D1 & 4,454.79 & 3,783.97 & 3,094.37 & 3,190.32 & 330.39 \\
+D2 & 2,874.41 & 3,331.86 & 151.16 & 1,801.60 & 60.79 \\
+D3 & 2,659.78 & 3,325.42 & 1,634.39 & 2,642.36 & 70.25 \\
+D4 & 2,783.76 & 3,430.82 & 1,867.51 & 4,345.03 & 67.10 \\
+D5 K=1000 & 3,822.33 & 2,525.27 & 2,595.84 & 2,563.58 & 139.41 \\
+D5 K=10 & 3,872.30 & 2,405.35 & 2,592.83 & 2,361.51 & 82.28 \\
+D5 K=2 & 3,973.54 & 2,359.70 & 1,764.06 & 1,765.41 & 49.08 \\
+D6 R=2 & 8,760.56 & 3,115.26 & 423.11 & 1,586.64 & 105.13 \\
+D6 R=16 & 4,262.94 & 2,932.16 & 923.42 & 1,976.44 & 190.78 \\
+D6 R=256 & 3,918.54 & 3,067.78 & 1,487.09 & 2,158.75 & 235.94 \\}
+\newcommand{\MechanismTableRows}{D1 & Adaptive & 18,599,873 & 16,130 & 3.814968 \\
+D1 & noA & 18,588,462 & -- & 3.814968 \\
+D2 & Adaptive & 999,999 & 1 & 0.000141 \\
+D2 & noA & 11,032,952 & -- & 3.814968 \\
+D4 & Adaptive & 5,239,742 & 233 & 3.804775 \\
+D4 & noA & 12,015,805 & -- & 3.814968 \\
+D6 R=2 & Adaptive & 1,999,998 & 2 & 3.815166 \\
+D6 R=2 & noA & 11,541,147 & -- & 3.814968 \\}

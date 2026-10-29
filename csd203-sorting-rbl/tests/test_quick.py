@@ -160,6 +160,36 @@ class QuickFuzz(unittest.TestCase):
 class QuickNganReview(unittest.TestCase):
     """Review by Ngan against the integrated generator, without mock D4-D6."""
 
+    def test_plain_and_counted_make_same_comparison_decisions(self):
+        class Key:
+            trace = []
+
+            def __init__(self, value, index):
+                self.value, self.index = value, index
+
+            def __lt__(self, other):
+                Key.trace.append(("lt", self.index, other.index))
+                return self.value < other.value
+
+            def __gt__(self, other):
+                Key.trace.append(("gt", self.index, other.index))
+                return self.value > other.value
+
+        rng = random.Random(203)
+        for n in (0, 1, 2, 31, 64, 129, 1201):
+            original = [Key(rng.randrange(31), i) for i in range(n)]
+            a, b = list(original), list(original)
+            Key.trace = []
+            quick.sort(a)
+            plain_trace = list(Key.trace)
+            Key.trace = []
+            stats = quick.sort_counted(b)
+            with self.subTest(n=n):
+                self.assertEqual(a, b)
+                self.assertEqual(plain_trace, Key.trace)
+                self.assertEqual(stats["key_comparisons"], len(Key.trace))
+                self.assertEqual([x.value for x in a], sorted(x.value for x in original))
+
     def test_real_generator_all_dataset_parameters(self):
         families = [("D1", None, None), ("D2", None, None),
                     ("D3", None, None), ("D4", None, None),

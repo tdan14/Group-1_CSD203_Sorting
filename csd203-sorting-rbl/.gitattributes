@@ -34,3 +34,5 @@ tests/test_heap.py -text -eol
 tests/test_merge.py -text -eol
 tests/test_quick.py -text -eol
 tests/test_radix.py -text -eol
+# Preserve the measured CSV byte-for-byte for its SHA-256 provenance record.
+results/raw/ngan_20261029.csv -text -eol

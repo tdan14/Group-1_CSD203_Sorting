@@ -143,6 +143,77 @@ class RadixNganReview(unittest.TestCase):
                 sorter(a)
                 self.assertEqual(a, sorted(original))
 
+    def test_counted_matches_observed_normal_array_operations(self):
+        """Observe the normal path independently, including buffers and copy-back.
+
+        This is logical element traffic, not internal CPython memory accesses.
+        Only buffer construction is instrumented in an in-memory AST copy;
+        the checked-in algorithm and the measured path are unchanged.
+        """
+        import ast
+        import inspect
+        import textwrap
+
+        totals = {"reads": 0, "writes": 0}
+
+        class ObservedList(list):
+            def __init__(self, values, initialize=True):
+                super().__init__(values)
+                if initialize:
+                    totals["writes"] += len(self)
+
+            def __iter__(self):
+                for value in list.__iter__(self):
+                    totals["reads"] += 1
+                    yield value
+
+            def __getitem__(self, index):
+                totals["reads"] += (len(range(*index.indices(len(self))))
+                                    if isinstance(index, slice) else 1)
+                return list.__getitem__(self, index)
+
+            def __setitem__(self, index, value):
+                if isinstance(index, slice):
+                    # list slice assignment reads the RHS buffer internally.
+                    totals["reads"] += len(value)
+                    totals["writes"] += len(value)
+                    # Avoid counting that same copy again through __iter__.
+                    value = list(list.__iter__(value))
+                else:
+                    totals["writes"] += 1
+                return list.__setitem__(self, index, value)
+
+        class WrapBuffers(ast.NodeTransformer):
+            def visit_Assign(self, node):
+                self.generic_visit(node)
+                if (isinstance(node.value, ast.BinOp)
+                        and isinstance(node.value.op, ast.Mult)
+                        and isinstance(node.value.left, ast.List)):
+                    node.value = ast.Call(func=ast.Name(id="ObservedList", ctx=ast.Load()),
+                                          args=[node.value], keywords=[])
+                return node
+
+        tree = ast.parse(textwrap.dedent(inspect.getsource(radix.sort)))
+        tree = ast.fix_missing_locations(WrapBuffers().visit(tree))
+        namespace = {"ObservedList": ObservedList}
+        exec(compile(tree, "<observed radix sort>", "exec"), namespace)
+        cases = [[], [7], [2, 1], [3] * 10, [0, MAX_INT32, 256, 65536]]
+        cases += [generate(ds, 1001, 2026, **kw) for ds, kw in
+                  (("D1", {}), ("D3", {}), ("D5", {"k": 2}),
+                   ("D6", {"runs": 16}))]
+        for original in cases:
+            with self.subTest(n=len(original)):
+                totals.update(reads=0, writes=0)
+                observed = ObservedList(original, initialize=False)
+                namespace["sort"](observed)
+                measured = dict(totals)
+                counted = list(original)
+                stats = radix.sort_counted(counted)
+                self.assertEqual(observed, sorted(original))
+                self.assertEqual(counted, observed)
+                self.assertEqual(stats["array_reads"], measured["reads"])
+                self.assertEqual(stats["array_writes"], measured["writes"])
+
 
 if __name__ == "__main__":
     unittest.main()

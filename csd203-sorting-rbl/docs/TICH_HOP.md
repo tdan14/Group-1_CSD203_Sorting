@@ -77,7 +77,12 @@ cấu hình D1–D6 × 3 chế độ, N=1001, seed=2026: **60/60 lượt ok**, o
 - Tài liệu bàn giao phản ánh thời điểm riêng, có chỗ còn nói thiếu Merge
   hoặc Timsort. Đọc chúng như lịch sử, đối chiếu trạng thái hiện tại ở đây.
 
-Chưa chạy ma trận nghiên cứu chính thức, chưa có paper hoàn chỉnh, chưa
+Tại thời điểm tích hợp 28/10: chưa chạy ma trận nghiên cứu chính thức, chưa có paper hoàn chỉnh, chưa
 có chữ ký review của thành viên. Không tự ghi nhóm đã nghiệm thu hoặc
 đã tự viết phần được AI hỗ trợ. Thay đổi đang ở working tree, chưa commit
 hay push.
+
+Cập nhật 30/10: phần Ngân có dữ liệu đo trên máy phát triển, audit và bài
+LaTeX tại `paper/ieee/`; xem mục mới trong `README.md`, `PHAN_CONG.md` và
+`AI_LOG.md`. Các kết quả 72 test ở trên thuộc lần tích hợp trước. Không
+đổi manifest bàn giao gốc để che các sửa đổi sau bàn giao.

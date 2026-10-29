@@ -66,7 +66,10 @@ For the empirical RQ1 comparison, use D1 at N = 10,000; 50,000; 100,000;
 machine. Measure memory in the worker's separate `mem` process; the input and
 working copy are prepared before tracing starts. Report median/min/max,
 successful-trial count, Python version, generator version, and code commit.
-No empirical ranking or memory measurements are claimed in this Methods draft.
+The recorded workstation experiment is analyzed separately in
+`paper/rq1_memory.md` and assembled into `paper/ieee/main.tex`. Its raw CSV,
+source hashes, interpreter and actual machine identity must accompany any use
+of the measurements; it is not labeled as a run on Hai's designated machine.
 
 ## Operation counting
 
@@ -88,6 +91,12 @@ It also checks identical comparison traces, observed comparison counts, exact
 counts on two-element inputs, shared-buffer reuse and absence of input slicing.
 These tests establish correctness for the exercised cases; they do not replace
 the official three-seed performance experiments or My's independent review.
+
+The Ngan review also compares plain/counting decision traces for Quick and
+observes Radix's logical array accesses independently. The prior extra-read
+issue in Radix is resolved in revision `c73bc10`. The remaining interpretation
+limits (disabled instrumentation branches in Quick, slice copy-back in Radix,
+and tracemalloc rather than RSS) are explicitly disclosed in the compiled paper.
 
 ## References
 
