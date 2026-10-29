@@ -63,8 +63,10 @@ cấu hình D1–D6 × 3 chế độ, N=1001, seed=2026: **60/60 lượt ok**, o
 ## Những điểm giữ nguyên để nhóm review sau
 
 - Ngân đã nêu chênh lệch bộ đếm đọc Radix: đường thường đọc nhiều hơn
-  đường counted 4N lần với N >= 2. Xem nguyên văn trong
-  [bàn giao Ngân](../ban_giao/ngan/PHAN_CONG.md). Chưa sửa.
+  đường counted 4N lần với N >= 2. Thiện đã xử lý xong vào ngày 29/10/2026
+  bằng cách đồng nhất dùng biến `pos = count[byte_val] - 1` trên cả hai
+  đường chạy `sort(a)` và `sort_counted(a)`, loại bỏ hoàn toàn 4N lần đọc thừa.
+  Đã kiểm chứng lại 72/72 test đạt trên CPython 3.12.
 - `--resume` của runner dùng khóa theo commit/máy/cấu hình, chưa có
   run_id, generator_version hoặc python_version trong khóa; các trạng
   thái lỗi cũng được xem là đã có dòng. Dùng CSV mới cho đợt mới.

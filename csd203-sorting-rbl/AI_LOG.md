@@ -32,3 +32,4 @@
 
 | Ngày | Người | AI gợi ý | Chấp nhận/sửa/bác bỏ và lý do | Commit/test/CSV |
 |---|---|---|---|---|
+| 2026-10-29 | Thiện (`rq2-thien`) | Đồng nhất biến `pos` trong `src/radix.py` (loại bỏ 4N lượt đọc mảng theo góp ý Ngân); nộp methods_radix.md, rq2_hypothesis.md, rq2_analysis.md; review Heap và Timsort | Chấp nhận: sửa triệt để độ lệch số lượt đọc mảng, đảm bảo 2 hàm đồng nhất 100% | 72/72 test đạt trên CPython 3.12 |
